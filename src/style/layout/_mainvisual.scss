@@ -1,0 +1,55 @@
+.mainvisual{
+    width: 100%;
+    height: 690px;
+    background-image: url("src/image/banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+    .inner-bloc{
+        
+        h1{
+            width: 890px;
+            font-family: $font-poppins;
+            font-size: 54px;
+            line-height: 64px;
+            font-weight: 700;
+            color: $colorwhite;
+            margin-bottom: 40px;
+        }
+        .product-filter{
+            width: 100%;
+            border-radius: 10px;
+            background-color: #ffffff72;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &__wrap{
+                padding: 20px;
+                width: 1260px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-betweenx;
+
+                .search-txt{
+                    width: calc(100%/4);
+                    
+                    input{
+                        width: calc(100% - 40px);
+                        padding: 20px;
+                    }
+                    .selectitem{
+                        width: 100%;
+                        padding: 20px;
+                    }
+
+                }
+            }
+        }
+    }
+}

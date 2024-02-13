@@ -1,0 +1,144 @@
+.helpppl {
+
+    background-image: url('src/image/banner2.png');
+    width: 100%;
+    height: 809px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    h2 {
+        text-align: center;
+        align-items: center;
+        font-family: $font-poppins;
+        font-size: 42px;
+        color: black;
+        line-height: 52px;
+        padding-top: 94px;
+        margin-bottom: 163px;
+    }
+
+}
+
+.card-bloc {
+
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+
+    &__cards {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+
+        &--one {
+
+            border: 1px solid black;
+            background-color: rgba(255, 255, 255, 60%);
+            width: 300px;
+            height: 200px;
+            border-radius: 40px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+
+            // .img-box {
+
+            //     .img {}
+            // }
+
+            h3 {
+                font-size: 24;
+                font-family: $font-poppins;
+                letter-spacing: 5;
+                margin-top: 26px;
+                margin-bottom: 18px;
+            }
+
+            p {
+                font-size: 18;
+                font-family: $font-jost;
+                letter-spacing: 5;
+            }
+
+
+        }
+
+        &--two {
+
+            border: 1px solid black;
+            background-color: rgba(255, 255, 255, 60%);
+            width: 300px;
+            height: 200px;
+            border-radius: 40px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+
+            // .img-box {
+
+            // }
+
+            h3 {
+                font-size: 24;
+                font-family: $font-poppins;
+                letter-spacing: 5;
+                margin-top: 26px;
+                margin-bottom: 18px;
+            }
+
+            p {
+                font-size: 18;
+                font-family: $font-jost;
+                letter-spacing: 5;
+            }
+
+
+        }
+
+        &--three {
+
+            border: 1px solid black;
+            background-color: rgba(255, 255, 255, 60%);
+            width: 300px;
+            height: 200px;
+            border-radius: 40px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+
+            // .img-box {
+
+            //     //.img {}
+            // }
+
+            h3 {
+                font-size: 24;
+                font-family: $font-poppins;
+                letter-spacing: 5;
+                margin-top: 26px;
+                margin-bottom: 18px;
+            }
+
+            p {
+                font-size: 18;
+                font-family: $font-jost;
+                letter-spacing: 5;
+            }
+
+
+        }
+
+
+    }
+
+}

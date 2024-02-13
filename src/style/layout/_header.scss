@@ -1,0 +1,75 @@
+.l-header {
+    position: sticky;
+
+    
+
+    &__top {
+        position: relative;
+        width: 100%;
+        height: 90px;
+        //margin: 0 auto;
+        background-color: $colormain;
+
+        p {
+            font-family: $font-poppins;
+            color: $colorwhite;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+
+        .top-bloc {
+            width: 100%;
+            height: 90px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo {
+                width: 224px;
+            }
+
+            .address-bloc {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 30px;
+            }
+        }
+
+    }
+
+    &__nav {
+        position: relative;
+        width: 100%;
+        height: 90px;
+        background-color: $colorgreen;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+
+            .nav-link {
+
+                a {
+                    color: $colorwhite;
+                    font-family: $font-poppins;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+            }
+        }
+
+    }
+}
+@media screen and (min-width: 1440px) {
+    .l-header{
+        width: 100%;
+    }
+}

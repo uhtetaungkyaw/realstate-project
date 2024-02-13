@@ -1,0 +1,82 @@
+.two {
+    background-color: #D4D1AE;
+    height: 1128px;
+}
+
+.get-combine {
+    display: flex;
+    justify-content: space-between;
+
+    &__getintouch {
+
+        margin-top: 70px;
+        margin-left: 79px;
+
+        h2 {
+            font-size: 32;
+            font-family: $font-poppins;
+            margin-bottom: 32px;
+        }
+
+
+    }
+
+
+
+    &__input {
+        width: 700px;
+        height: 150px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 35px;
+
+    }
+
+    &__subject {
+        width: 700px;
+        height: 50px;
+        padding-left: 10px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+    }
+
+    &__getinicon {
+        margin-right: 79px;
+        margin-top: 100px;
+
+        address {
+            font-size: 18;
+            font-family: $font-jost;
+        }
+
+        .icon-text {
+            margin-bottom: 56px;
+        }
+
+    }
+
+
+
+}
+
+.name-email {
+
+    margin-bottom: 26px;
+
+    &__name {
+
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+        padding-left: 10px;
+        margin-right: 85px;
+
+    }
+
+    &__password {
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+}

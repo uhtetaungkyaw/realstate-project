@@ -1,0 +1,83 @@
+.login{
+    width: 100%;
+    background-color: #D4D1AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 700px;
+    background-color: $colorwhite;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 20px;
+    
+    &__inner{
+        width: 100%;
+
+        h2{
+            text-align: center;
+            font-family: $font-poppins;
+            font-size: 42px;
+            line-height: 52px;
+            font-weight: 400;
+            margin-bottom: 50px;
+        }
+    
+        .input-box{
+            width: calc(100% - 2px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #000;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            //height: 90px;
+            
+            .icon{
+                padding-left: 10px;
+                size: 16px;
+            }
+            input{
+                width: 96%;
+                border: 0px;
+                font-size: 16px;
+                border-radius: 10px;
+                padding: 10px;
+                font-family: $font-jost;
+                line-height: 26px;
+            }
+        }
+    }
+    &__fp{
+            
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+
+        
+    }
+
+    &__signup{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+
+        label{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 5px;
+
+        }
+    }
+}

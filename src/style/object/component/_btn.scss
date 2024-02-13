@@ -1,0 +1,20 @@
+.btn{
+    background-color: $colorsub;
+    font-family: $font-jost;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+
+    &--search{
+        width: 315px;
+        border-radius: 0px;
+        padding: 15px;
+
+    }
+    &--login{
+        width: 140px;
+    }
+
+}
